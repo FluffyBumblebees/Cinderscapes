@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.terraformersmc.cinderscapes.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinNetherCaveCarver",
+    "MixinSurfaceBuilder"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
